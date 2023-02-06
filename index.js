@@ -14,14 +14,14 @@ input.addEventListener('input', function check(){
         text.classList.add("right")
         text.classList.remove("wrong")
         console.log(progress)
-        x = progress.length
+        x = progress.length -1
         updateProgress(x/6.5)
         return x
     }
     else if (progress[x] !== text.innerText[x]){
         text.classList.add("wrong")
         text.classList.remove("right")
-        x = progress.length
+        x = progress.length -1
     }
 })
 
