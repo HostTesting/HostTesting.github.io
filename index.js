@@ -39,7 +39,7 @@ function submit(){
 
 var timer = document.getElementById("timer");
 timer.style.color = "gold"
-var remainingSeconds = 10;
+var remainingSeconds = 60;
 function start(){
     var y = setInterval(function() {
         if (remainingSeconds > 0) {
